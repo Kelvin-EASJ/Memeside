@@ -7,9 +7,14 @@
 }
 body {
     background-color: #828c8a;
-    background-image: url("retrowave_city.jpg");
-    margin: 0;
+    background: url(./images/retrowave_casette.png);
+    background-size: 100%;
 }
+
+#mainheader {
+    background-color: #cacaca;
+}
+
 .navtop {
     background-color: #2b8a72;
     height: 60px;
@@ -55,7 +60,7 @@ body {
     padding: 25px 0;
     font-size: 22px;
     border-bottom: 1px solid #ebebeb;
-    color: #666666;
+    color: #38b673;
 }
 .image-popup {
     display: none;

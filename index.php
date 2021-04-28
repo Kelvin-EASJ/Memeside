@@ -7,9 +7,8 @@ $stmt = $pdo->query('SELECT * FROM images ORDER BY uploaded_date DESC');
 $images = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <?=template_header('Gallery')?>
-<div id=body class="content home">
-	<h2>The World's Funniest Memesite</h2>
-	<p>This is the gallery of the mémés.</p>
+<div  class="content home">
+	<h2 id=mainheader>The World's Funniest Memesite</h2>
 	<a href="upload.php" class="upload-image">Upload Image</a>
 	<div class="images">
 		<?php foreach ($images as $image): ?>
@@ -20,6 +19,8 @@ $images = $stmt->fetchAll(PDO::FETCH_ASSOC);
 		</a>
 		<?php endif; ?>
 		<?php endforeach; ?>
+		<audio id=music src="./images/spinning_toilet.mp4" loop controls autoplay>
+		</audio>
 	</div>
 </div>
 <div class="image-popup"></div>
