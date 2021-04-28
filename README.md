@@ -2,7 +2,7 @@
 Det her er min PHP galleri til opgave aflevering
 
 Den måde galleriet fungere på er at at man ved brug af upload.php filen så kan indsætte et billede med en beskrivelse og en titel.
-![php memeside 1](https://user-images.githubusercontent.com/54789994/116399440-374f4700-a829-11eb-88e6-482ef728f75d.PNG)
+![image](https://user-images.githubusercontent.com/54789994/116407553-2c4ce480-a832-11eb-811e-32d9359f8b82.png)
 
 Når man så har uploadet et billede kan man så se den på index.php siden og derfra også slette billedet.
-![php memeside 2](https://user-images.githubusercontent.com/54789994/116399731-84331d80-a829-11eb-9b85-96604e46c7d0.PNG)
+![image](https://user-images.githubusercontent.com/54789994/116407620-3c64c400-a832-11eb-89d0-074e92f56a34.png)
