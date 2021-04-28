@@ -7,7 +7,7 @@ $stmt = $pdo->query('SELECT * FROM images ORDER BY uploaded_date DESC');
 $images = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <?=template_header('Gallery')?>
-<div class="content home">
+<div id=body class="content home">
 	<h2>The World's Funniest Memesite</h2>
 	<p>This is the gallery of the mémés.</p>
 	<a href="upload.php" class="upload-image">Upload Image</a>
