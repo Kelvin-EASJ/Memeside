@@ -12,11 +12,15 @@ body {
 }
 
 #mainheader {
-    background-color: #cacaca;
+    background-color: #0f0a2b;
+    background-image: url(./images/retrowave_palms.jpg);
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position-x: right;
 }
 
 .navtop {
-    background-color: #2b8a72;
+    background-color: #3b3249;
     height: 60px;
     width: 100%;
     border: 0;
@@ -59,8 +63,9 @@ body {
     margin: 0;
     padding: 25px 0;
     font-size: 22px;
-    border-bottom: 1px solid #ebebeb;
-    color: #38b673;
+    border: 1px solid #000000;
+    color: #794d13;
+    
 }
 .image-popup {
     display: none;
@@ -112,7 +117,7 @@ body {
 .home .upload-image {
     display: inline-block;
     text-decoration: none;
-    background-color: #38b673;
+    background-color: #1f1647;
     font-weight: bold;
     font-size: 14px;
     border-radius: 5px;
@@ -121,7 +126,7 @@ body {
     margin: 15px 0;
 }
 .home .upload-image:hover {
-    background-color: #32a367;
+    background-color: #1f1647;
 }
 .home .images {
     display: flex;
@@ -180,7 +185,7 @@ body {
 }
 .upload form input[type="submit"] {
     display: block;
-    background-color: #38b673;
+    background-color: #1f1647;
     border: 0;
     font-weight: bold;
     font-size: 14px;
@@ -191,7 +196,7 @@ body {
     border-radius: 5px;
 }
 .upload form input[type="submit"]:hover {
-    background-color: #32a367;
+    background-color: #1f1647;
 }
 .delete .yesno {
     display: flex;
@@ -199,7 +204,7 @@ body {
 .delete .yesno a {
     display: inline-block;
     text-decoration: none;
-    background-color: #38b673;
+    background-color: #1f1647;
     font-weight: bold;
     color: #FFFFFF;
     padding: 10px 15px;
@@ -207,6 +212,6 @@ body {
     border-radius: 5px;
 }
 .delete .yesno a:hover {
-    background-color: #32a367;
+    background-color: #1f1647;
 }
 
